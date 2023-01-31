@@ -1,0 +1,141 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+NavLink {
+  text-decoration: none;
+  
+} 
+
+.banner{
+  
+  text-align: center;
+  height: 250px;
+  vertical-align: middle;
+color: white;
+}
+
+.banner h2 {
+  font-size: 3rem;
+}
+.pizzas {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+
+}
+
+a{
+  text-decoration: none;
+  color: azure;
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+.card-img, .card-img-top:hover {
+  width: 100%;
+  transform: scale(1.1);
+}
+
+li{
+  text-decoration: none;
+  list-style:none
+}
+.cardPrice{
+  text-align: center;
+}
+.cardBtn{
+  text-align: center;
+  vertical-align:middle;
+}
+ 
+.cardBtn button{
+  margin: 15px;
+  text-align: center;
+
+}
+.contpizza{
+  display: flex;
+  padding-top: 15px ;
+   width: 100%;
+  justify-content: center;
+}
+.contTabla{
+  display: flex;
+  display: flex;
+
+  width: 80%;
+}
+.containerCarro{
+  width: 90%;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgb(220, 220, 220)  ;
+  justify-content: center;
+  text-align: left; 
+}
+.containerCarro p{
+  padding: 10px;
+}
+.contTabla table{
+  width: 100%;
+  margin: 15px;
+  padding: 15px;
+  background-color:white ;
+  justify-content: center;
+
+
+}
+.contTabla td{
+  text-align: center;
+}
+.contTabla .tdImg{
+width: 200px;
+
+}
+.contTabla .tdName{
+  text-align: left;
+  width: 60%;
+}
+h4{
+  padding: 15px;
+  color: white;
+}
